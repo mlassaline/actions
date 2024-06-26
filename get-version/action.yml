@@ -1,0 +1,12 @@
+name: Get Version
+description: Gets version information from a JSON configuration file.
+
+inputs:
+  version-config:
+    description: Path to the version.config file
+    required: true
+    type: string
+
+runs:
+  using: node20
+  main: ./dist/get-version/index.js
