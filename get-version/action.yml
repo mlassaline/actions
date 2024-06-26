@@ -3,9 +3,13 @@ description: Gets version information from a JSON configuration file.
 
 inputs:
   version-config:
-    description: Path to the version.config file
+    description: Path to the version.config file.
     required: true
     type: string
+
+outputs:
+  version:
+    description: The resolved app version.
 
 runs:
   using: node20
