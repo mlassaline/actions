@@ -13,4 +13,4 @@ outputs:
 
 runs:
   using: node20
-  main: ./dist/get-version/index.js
+  main: ../dist/get-version/index.js
